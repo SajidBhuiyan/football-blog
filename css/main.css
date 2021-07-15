@@ -2,7 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 /* fonts */
 
-/* global style */
+/* start global style */
 body {
   font-family: "Poppins", sans-serif;
   padding: 0;
@@ -12,22 +12,26 @@ body {
 a {
   text-decoration: none;
 }
-.button:hover {
+.btn {
+  background-color: #e02c6d;
+  margin-top: 30px;
+  padding: 10px 24px;
+  transition: 0.3s;
+  border: 0;
+}
+.btn:hover {
+  transform: scale(1.06);
   background-color: #ff015e;
 }
-.button {
-  background-color: #e02c6d;
+.btn a {
   color: whitesmoke;
-  text-decoration: none;
-  padding: 10px 24px;
-  transition: 0.5s;
+  font-size: 1.4em;
 }
-/* global style */
+/* end global style */
 
 /* start header-section */
 header {
   background-color: #2d25a0;
-  /* background-size: auto; */
   display: flex;
   align-items: center;
   color: whitesmoke;
@@ -44,7 +48,7 @@ header h1 {
 }
 .header-right img {
   width: 100%;
-  opacity: 0.7;
+  opacity: 0.8;
   transition: 0.5s;
 }
 .header-right img:hover {

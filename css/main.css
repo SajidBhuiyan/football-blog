@@ -21,6 +21,9 @@ a {
   text-decoration: none;
   padding: 10px 24px;
 }
+.fa {
+  color: gray;
+}
 /* global style */
 
 
@@ -56,44 +59,6 @@ header h1 {
 }
 /* header */
 
-
-
-
-
-
-
-/* .header {
-  background-color: #2d25a0;
-  background-size: auto;
-  display: flex;
-  align-items: center;
-  color: whitesmoke;
-}
-.half-width {
-  width: 50%;
-}
-.header h1 {
-  font-size: 64px;
-  font-weight: 700;
-  line-height: 80px;
-}
-.header-container {
-}
-.header-left {
-  margin-left: 158px;
-}
-.header-right {
-  float: right;
-}
-
-.header-right img {
-  width: 100%;
-  
-}
-.header-right img:hover{
-  transition:all 0.6 ease;
-    
-} */
 
 
 
@@ -146,4 +111,16 @@ header h1 {
   font-size: 18px;
   font-weight: 400;
 }
+.fa-facebook:hover {
+color: #4267B2;
+}
+.fa-twitter:hover {
+  color: #00acee;
+}
+.fa-youtube:hover {
+  color: #FF0000;
+}
+.fa-instagram:hover {
+  color: #bc2a8d;
+ }
 /* footer */

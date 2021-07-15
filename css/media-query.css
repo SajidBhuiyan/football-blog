@@ -1,6 +1,54 @@
-@media (min-width: 480px) and (max-width: 720px) {
-  .header-right img {
-    width: 100% !important
-    ;
+@media only screen and (max-width: 500px) {
+  header {
+    flex-direction: column;
+    width: 100vw;
+    padding: 3em 2em;
+    align-items: center;
   }
+  .header-left {
+    width: 270px !important;
+    margin-left: -160px;
+    margin-bottom: 40px;
+  }
+  header h1 {
+    font-size: 36px !important;
+    font-weight: 700;
+    line-height: 1.4em !important;
+  }
+
+  .header-right {
+    width: 330px !important;
+  }
+  .footer-logo img {
+    width: 280px !important;
+    height: 100px;
+  }
+}
+
+@media (min-width: 501px) and (max-width: 720px) {
+  .header {
+    flex-direction: column !important;
+    width: 100vw;
+  }
+  .half-width {
+    width: 100%;
+  }
+  header h1 {
+    font-size: 36px !important;
+    font-weight: 700;
+    line-height: 1.4em !important;
+    align-items: center;
+  }
+}
+@media (min-width: 721px) and (max-width: 1161px) {
+  header {
+    flex-direction: row;
+    width: 100vw;
+    padding: 3em 2em;
+    align-items: center;
+  }
+  header h1 {
+    font-size: 36px !important;
+    font-weight: 700;
+    line-height: 1.4em !important;
 }

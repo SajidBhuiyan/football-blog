@@ -23,8 +23,46 @@ a {
 }
 /* global style */
 
+
+
+
+
+
+
+
+
 /* header */
-.header {
+
+header {
+  background-color: #2d25a0;
+  /* background-size: auto; */
+  display: flex;
+  align-items: center;
+  color: whitesmoke;
+  justify-content: space-around;
+  min-height: 90vh;
+}
+.half-width {
+  width: 40%;
+}
+header h1 {
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 80px;
+}
+.header-right img {
+  width: 100%;
+  
+}
+/* header */
+
+
+
+
+
+
+
+/* .header {
   background-color: #2d25a0;
   background-size: auto;
   display: flex;
@@ -39,8 +77,8 @@ a {
   font-weight: 700;
   line-height: 80px;
 }
-/* .header-container {
-} */
+.header-container {
+}
 .header-left {
   margin-left: 158px;
 }
@@ -55,7 +93,12 @@ a {
 .header-right img:hover{
   transition:all 0.6 ease;
     
-}
+} */
+
+
+
+
+
 
 /* article */
 

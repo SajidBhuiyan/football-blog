@@ -1,2 +1,106 @@
+/* fonts */
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+/* fonts */
+
 /* global style */
-font-family: "Raleway", sans-serif;
+body {
+  font-family: "Poppins", sans-serif;
+  padding: 0;
+  margin: 0;
+  background-color: white;
+}
+.button:hover {
+  trta
+}
+a {
+  text-decoration: none;
+}
+.button {
+  background-color: #e02c6d;
+  color: whitesmoke;
+  text-decoration: none;
+  padding: 10px 24px;
+}
+/* global style */
+
+/* header */
+.header {
+  background-color: #2d25a0;
+  background-size: auto;
+  display: flex;
+  align-items: center;
+  color: whitesmoke;
+}
+.half-width {
+  width: 50%;
+}
+.header h1 {
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 80px;
+}
+/* .header-container {
+} */
+.header-left {
+  margin-left: 158px;
+}
+.header-right {
+  float: right;
+}
+
+.header-right img {
+  width: 100%;
+  
+}
+.header-right img:hover{
+  transition:all 0.6 ease;
+    
+}
+
+/* article */
+
+.blog {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-direction: row;
+  grid-gap: 30px;
+
+  margin: 10% 15%;
+}
+.photo-album {
+  width: 330px;
+  height: 474px;
+  background-color: white;
+  box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+}
+.photo-frame {
+  padding: 15px;
+}
+
+.photo-frame img {
+  width: 100%;
+}
+
+/* footer */
+.footer-container {
+  text-align: center;
+}
+.social-links a {
+  padding-right: 15px;
+}
+.social-links {
+  text-align: center;
+  font-size: 25px;
+  text-decoration: none;
+}
+.footer-logo img {
+  width: 483px;
+  height: 110px;
+}
+.footer-container p {
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+}
+/* footer */
